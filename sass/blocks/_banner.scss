@@ -1,0 +1,30 @@
+.banner {
+    padding: 125px 0 50px;
+    background-color: $main-color-dark;
+    color: #fff;
+    text-align: center;
+    &-header {
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 20px;
+    }
+    &-line {
+        width: 40px;
+        height: 2px;
+        margin: auto;
+        background-color: $main-color-gold;
+        margin-bottom: 20px;
+    }
+    &-descr {
+        max-width: 750px;
+        font-size: 18px;
+        line-height: 28px;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    &-btn {
+        width: 180px;
+        height: 45px;
+        margin: auto;
+    }
+}

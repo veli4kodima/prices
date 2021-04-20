@@ -1,0 +1,27 @@
+{
+  "name": "wedding-dance",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-iconfont": "^11.0.0",
+    "gulp-iconfont-css": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-webp": "^4.0.1",
+    "gulp-webpcss": "^1.1.1",
+    "iconfont": "^0.3.1"
+  },
+  "dependencies": {},
+  "description": ""
+}

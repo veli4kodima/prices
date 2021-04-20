@@ -1,0 +1,44 @@
+@import './utils/reset';
+@import './fonts/fonts';
+@import './utils/variables';
+@import './blocks/header';
+@import './blocks/banner';
+@import './blocks/breadcrumbs';
+@import './blocks/content';
+@import './blocks/footer';
+@import './blocks/media';
+
+
+html {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-style: normal;
+    color: #242635;
+}
+
+body {
+    position: relative;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1030px;
+    padding: 0 15px;
+}
+
+.btn {
+    color: white;
+    background: $main-color-gold;
+    box-shadow: inset 0px -3px 0px #AA8C5D;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 0px -3px 0px #AA8C5D;
+    }
+}
